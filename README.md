@@ -1,7 +1,7 @@
 Jcoin Project
 ================================
 
-http://www.jcoin.co.jp
+https://www.jcoin.co.jp
 
 - Copyright (c) 2009-2014 Bitcoin Developers
 - Copyright (c) 2011-2014 Litecoin Developers
@@ -20,7 +20,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Jcoin client sofware, see http://www.jcoin.co.jp
+the Jcoin client sofware, see https://www.jcoin.co.jp
 
 License
 -------
