@@ -3,9 +3,9 @@ Jcoin Project
 
 http://www.jcoin.co.jp
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2017-2018 Jcoin Developers
+- Copyright (c) 2009-2014 Bitcoin Developers
+- Copyright (c) 2011-2014 Litecoin Developers
+- Copyright (c) 2017-2018 Jcoin Developers
 
 What is Jcoin?
 ----------------
