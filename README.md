@@ -1,4 +1,4 @@
-Jcoin integration/staging tree
+Jcoin Project
 ================================
 
 http://www.jcoin.co.jp
