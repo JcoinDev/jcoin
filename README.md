@@ -33,6 +33,7 @@ in the terminal of src folder type this command.
 in the terminal of jcoin folder type these commands.
  - qmake 
  - make
+
 Now in the Jcoin folder you should see jcoind
 in the terminal run this command
  - ./jcoind
