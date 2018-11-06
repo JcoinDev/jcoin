@@ -22,6 +22,24 @@ The rest is the same as Bitcoin.
 For more information, as well as an immediately useable, binary version of
 the Jcoin client sofware, see https://www.jcoin.co.jp
 
+How to Run GUI on Linux?
+----------------
+
+First navigate to your Jcoin Source folder $/Desktop/Jcoin/src/
+in the terminal of src folder type this command.
+ - make -f makefile.unix
+ - please wait this can take over 5 mins
+ Now navigate back a folder to the Jcoin directory  
+in the terminal of jcoin folder type these commands.
+ - qmake 
+ - make
+Now in the Jcoin folder you should see jcoind
+in the terminal run this command
+ - ./jcoind
+ - please wait while it connects to the Jcoin network
+
+For more information and help please visit https://www.jcoin.co.jp
+
 License
 -------
 
