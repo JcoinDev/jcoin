@@ -10,7 +10,7 @@ https://www.jcoin.co.jp
 What is Jcoin?
 ----------------
 
-Jcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+Jcoin is a version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~84 million total coins
