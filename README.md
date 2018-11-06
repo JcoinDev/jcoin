@@ -34,9 +34,9 @@ in the terminal of jcoin folder type these commands.
  - qmake 
  - make
 
-Now in the Jcoin folder you should see jcoind
+Now in the Jcoin folder you should see jcoin-qt
 in the terminal run this command
- - ./jcoind
+ - ./jcoin-qt
  - please wait while it connects to the Jcoin network
 
 For more information and help please visit https://www.jcoin.co.jp
