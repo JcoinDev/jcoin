@@ -14,32 +14,94 @@ Jcoin is a version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~84 million total coins
-
-The rest is the same as Bitcoin.
  - 50 coins per block
  - 2016 blocks to retarget difficulty
 
-For more information, as well as an immediately useable, binary version of
-the Jcoin client sofware, see https://www.jcoin.co.jp
-
 How to Run GUI on Linux?
 ----------------
-
+Compiler works on Ubuntu 16.0.4.5
+http://releases.ubuntu.com/16.04/
 First navigate to your Jcoin Source folder $/Desktop/Jcoin/src/
 in the terminal of src folder type this command.
  - make -f makefile.unix
  - please wait this can take over 5 mins
- Now navigate back a folder to the Jcoin directory  
+ -Now navigate back a folder to the Jcoin directory
+ - cd ..
+ 
 in the terminal of jcoin folder type these commands.
  - qmake 
  - make
 
 Now in the Jcoin folder you should see jcoin-qt
 in the terminal run this command
+ - ls
  - ./jcoin-qt
  - please wait while it connects to the Jcoin network
 
 For more information and help please visit https://www.jcoin.co.jp
+------------------------------------------------------------------------------
+
+How to Run GUI on Windows?
+----------------
+Extract .zip file
+ - RUN jcoin-0.8.7.5-win32-setup
+ - Allow firewall accesss
+ - Read Server and Seed Instructions
+
+------------------------------------------------------------------------------
+
+Seed and Server Instructions
+----------------
+Windows
+ - Search for %appdata% in windows
+ - Create jcoin.conf file in %appdata% input addnode ip.
+ - addnode=192.168.0.7
+ 
+ Linux
+ -$/Home/.jcoin CRTL H to see hidden files
+ - create jcoin.conf file in .jcoin input addnode ip.
+ - addnode=192.168.0.7
+ - connect to server and mine
+
+-----Make Server Seed -----
+
+Create jcoin.conf file inside the file paste code bellow save and run jcoin-qt
+
+server=1
+rpcuser=user
+password=password
+
+---------------------------
+
+### Dependencies For Linux 16.04 Compiler Build:
+
+sudo apt-get install git
+ 
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+ 
+sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+ 
+sudo apt-get install libboost-all-dev
+ 
+sudo apt-get install software-properties-common
+ 
+sudo add-apt-repository ppa:bitcoin/bitcoin
+ 
+sudo apt-get update
+ 
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+ 
+sudo apt-get install libminiupnpc-dev
+ 
+sudo apt-get install libzmq3-dev
+ 
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+ 
+sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 
 License
 -------
