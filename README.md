@@ -67,9 +67,9 @@ Windows
 
 Create jcoin.conf file inside the file paste code bellow save and run jcoin-qt
 
-server=1
-rpcuser=user
-password=password
+- server=1
+- rpcuser=user
+- password=password
 
 ---------------------------
 
